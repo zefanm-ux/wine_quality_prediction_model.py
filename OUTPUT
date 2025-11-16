@@ -1,0 +1,32 @@
+Accuracy with original features: 0.790625
+Accuracy with PCA features: 0.79375
+Accuracy with LDA features: 0.721875
+Classification Report for original features:
+              precision    recall  f1-score   support
+
+         bad       0.76      0.76      0.76       141
+        good       0.81      0.82      0.81       179
+
+    accuracy                           0.79       320
+   macro avg       0.79      0.79      0.79       320
+weighted avg       0.79      0.79      0.79       320
+
+Classification Report for PCA features:
+              precision    recall  f1-score   support
+
+         bad       0.76      0.79      0.77       141
+        good       0.83      0.80      0.81       179
+
+    accuracy                           0.79       320
+   macro avg       0.79      0.79      0.79       320
+weighted avg       0.80      0.79      0.79       320
+
+Classification Report for LDA features:
+              precision    recall  f1-score   support
+
+         bad       0.66      0.74      0.70       141
+        good       0.78      0.70      0.74       179
+
+    accuracy                           0.72       320
+   macro avg       0.72      0.72      0.72       320
+weighted avg       0.73      0.72      0.72       320
